@@ -1,0 +1,18 @@
+# To learn more about .editorconfig see https://aka.ms/editorconfigdocs
+
+# All files
+[*]
+end_of_line = crlf
+
+# C, CPP files
+[*.{c,cpp,h,hpp}]
+indent_style = space
+indent_size = 2
+charset = latin1
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Xml files
+[*.xml]
+indent_style = tab
+indent_size = 4
